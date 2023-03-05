@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "coll_games",
+  "info": {
+    "singularName": "coll-game",
+    "pluralName": "coll-games",
+    "displayName": "collgame",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
